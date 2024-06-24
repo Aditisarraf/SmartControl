@@ -1,0 +1,23 @@
+{
+  "name": "wipro-smart-plug-control",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mqtt": "^5.7.0",
+    "qs": "^6.12.1",
+    "tplink-smarthome-api": "^5.0.0",
+    "tuyapi": "^7.5.2",
+    "uuid": "^10.0.0",
+    "ws": "^8.17.1"
+  }
+}

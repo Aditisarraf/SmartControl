@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wipro Smart Plug</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .switch-button {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .switch-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Plug State</h1>
+    <form action="/toggle" method="post">
+      <button class="switch-button" type="submit">Switch</button>
+    </form>
+  </div>
+</body>
+</html>

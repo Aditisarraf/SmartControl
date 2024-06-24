@@ -9,7 +9,7 @@ const DeviceCard = ({ title, location, status, onPowerPress }) => {
   
   const handlePowerPress = async () => {
     try {
-      await axios.post('http://192.168.1.44:3000/toggle');
+      await axios.post('http://192.168.1.12:3000/toggle');
       onPowerPress(); // Update the status in the parent component after successful toggle
     } catch (error) {
       console.error('Error toggling device state:', error);
